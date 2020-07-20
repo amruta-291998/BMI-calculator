@@ -1,0 +1,18 @@
+<html>
+<body>
+<form method="get" action="check">
+{{form.as_p}}
+{% comment %}
+<label for="{{form.weight.id_for_label}}"> weight :</label>
+{{form.weight}}
+<input type="text" name="Weight">
+<br>
+<label for="{{form.height.id_for_label}}"> height :</label>
+{{form.height}}
+<input type="password" name="height">
+<br>
+{% endcomment %}
+<input type="submit" value="calculate BMI">
+</form>
+</body> 
+</html>
